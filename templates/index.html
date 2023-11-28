@@ -12,7 +12,7 @@
             display: none;
         }
     </style>
-    <title>New chat</title>
+    <title>chatGPT</title>
 </head>
 
 <body class="bg-chatblack-50">
@@ -32,16 +32,14 @@
             <div class="chats flex flex-col justify-center items-center space-y-2">
 
 
-                {% for chat in myChats %} 
                 <div class="chat space-x-2 opacity-80 w-[90%] px-5 py-2 rounded-md bg-gray-600 cursor-pointer flex justify-start items-center">
                     <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round"
                         stroke-linejoin="round" class="h-4 w-4" height="1em" width="1em"
                         xmlns="http://www.w3.org/2000/svg">
                         <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
                     </svg>
-                    <span>{{chat.question}}</span>
+                    <span>New chat</span>
                 </div>
-                {% endfor %}
                 
             </div>
 
